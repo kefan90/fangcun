@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\..\\web源码"
+		},
+		{
+			"path": "..\\..\\..\\..\\Web开发"
+		},
+		{
+			"path": "..\\..\\.."
+		},
+		{
+			"path": "..\\..\\..\\..\\Vue"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "方寸广告"
+	}
+}

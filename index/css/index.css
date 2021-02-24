@@ -1,0 +1,559 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/* 导航栏的样式 */
+.nav {
+    height: 100px;
+}
+
+.content {
+    width: 1200px;
+    height: 100px;
+    margin: 0px auto;
+}
+
+.log {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+}
+
+.log img {
+    width: 100px;
+    height: 100px;
+}
+
+.nav .content ul {
+    float: left;
+    height: 30px;
+    margin: 35px auto 35px auto;
+}
+
+.nav li {
+    display: inline;
+    width: 90px;
+    height: 30px;
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.nav li a {
+    display: inline-block;
+    width: 90px;
+    height: 30px;
+    color: #595757;
+    line-height: 30px;
+}
+
+.nav li a:hover {
+    color: #ffffff;
+}
+
+.nav li:hover {
+    background-color: #595757;
+}
+
+.nav .tel {
+    float: right;
+    width: 190px;
+    height: 58px;
+    margin-top: 2%;
+}
+
+.nav .content .tel img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+}
+
+.tel .tel-1 a {
+    font-size: 18px;
+    color: #595757;
+}
+
+/* 轮播图的样式 */
+.banner {
+    position: relative;
+    height: 100%;
+}
+
+.banner {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin-top: 7px;
+    padding: 0;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 700px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+/* 案例的样式 */
+.case {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.case .content {
+    width: 1280px;
+}
+
+.case .content .case-box .case-top {
+    margin: 0 auto;
+    width: 300px;
+    height: 80px;
+    line-height: 80px;
+    border-bottom: 2px solid red;
+    text-align: center;
+}
+
+.case .content .case-box .case-top a {
+    color: #595757;
+    font-size: 24px;
+}
+
+.case .content .case-box .case-top a:hover {
+    color: #000000;
+}
+
+.case .content .case-box .case-text {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.case .content .case-list {
+    float: left;
+    margin-top: 35px;
+}
+
+.case .content .case-list li {
+    float: left;
+    margin-bottom: 15px;
+    margin-right: 12px;
+    transition: all .3s;
+}
+
+.case .content .case-list li:hover {
+    transform: translateY(-10px);
+}
+
+.case .content .case-list li .pic .link img {
+    height: 181px;
+    width: 307px;
+}
+
+.case .content .case-list li .caset1 {
+    text-align: center;
+    line-height: 24px;
+    font-size: 16px;
+    padding-top: 15px;
+}
+
+.case .content .case-list li .caset1 a {
+    color: #666666;
+}
+
+.case .content .case-list li .caset1 a:hover {
+    color: #000000;
+}
+
+.case .content .case-list li .caset2 {
+    text-align: center;
+    line-height: 24px;
+    height: 40px;
+}
+
+.case .content .case-list li .caset2 a {
+    color: #666666;
+}
+
+.case .content .case-list li .caset2 a:hover {
+    color: #000000;
+}
+
+.case .content .case-bottom {
+    margin: 0 auto;
+    width: 300px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.case .content .case-bottom a {
+    display: block;
+    width: 300px;
+    height: 80px;
+    color: #595757;
+    font-size: 24px;
+}
+
+.case .content .case-bottom a:hover {
+    color: #000000;
+}
+
+/* 服务范围的样式 */
+.sever {
+    width: 100%;
+    /* margin-top: 100px; */
+    position: absolute;
+    left: 0px;
+    top: 1650px;
+    margin-bottom: 100px;
+}
+
+.sever .content {
+    width: 1280px;
+}
+
+.sever .content .sever-box {
+    margin-bottom: 100px;
+}
+
+.sever .content .sever-box .sever-top {
+    margin: 0 auto;
+    width: 300px;
+    height: 80px;
+    line-height: 80px;
+    border-bottom: 2px solid red;
+    text-align: center;
+}
+
+.sever .content .sever-box .sever-top a {
+    color: #595757;
+    font-size: 24px;
+}
+
+.sever .content .sever-box .sever-top a:hover {
+    color: #000000;
+}
+
+.sever .content .sever-box .sever-text {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.sever .content .sever-list {
+    width: 1280px;
+    height: 140px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.sever .content .sever-list li {
+    display: inline-block;
+    width: 105px;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.sever .content .sever-list li div {
+    transition: all .2s;
+}
+
+.sever .content .sever-list li div:hover {
+    transform: translateY(-15px);
+}
+
+.sever .content .sever-list .img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #b01f24;
+    border-radius: 50%;
+}
+
+/* .sever .content .sever-list .img:hover {
+    background-color: #b01f24;
+    color: #ffffff;
+} */
+
+.sever .content .sever-list .img img {
+    margin-top: 20px;
+}
+
+/* 服务流程的样式 */
+.flow {
+    width: 100%;
+    /* margin-top: 100px; */
+    position: absolute;
+    left: 0px;
+    top: 2050px;
+    margin-bottom: 100px;
+}
+
+.flow .content {
+    width: 1280px;
+}
+
+.flow .content .flow-box .flow-top {
+    margin: 0 auto;
+    width: 300px;
+    height: 80px;
+    line-height: 80px;
+    border-bottom: 2px solid red;
+    text-align: center;
+}
+
+.flow .content .flow-box .flow-top a {
+    color: #595757;
+    font-size: 24px;
+}
+
+.flow .content .flow-box .flow-top a:hover {
+    color: #000000;
+}
+
+.flow .content .flow-box .flow-text {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.flow .content .process {
+    width: 100%;
+    height: auto;
+}
+
+.flow .content .process li {
+    float: left;
+    height: 60px;
+}
+
+.flow .content .process .li01 {
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    width: 19%;
+    margin-top: 50px;
+}
+
+.flow .content .process .li01 span {
+    display: block;
+    width: 30%;
+    height: 58px;
+    border-radius: 10px 0 0 10px;
+    background-color: #eeeeee;
+    font-size: 30px;
+    float: left;
+    border-right: 1px solid #cccccc;
+    text-align: center;
+    line-height: 2;
+    font-weight: bold;
+    color: #999999;
+}
+
+.flow .content .process .li01 p {
+    width: 65%;
+    float: right;
+    line-height: 1.5;
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+.flow .content .process .li01 p a {
+    color: #666666;
+    background: transparent;
+}
+
+.flow .content .process .li02 {
+    width: 6%;
+    margin: 50px 10px 0 10px;
+    line-height: 60px;
+    text-align: center;
+}
+
+/* 关于页面样式 */
+.about {
+    width: 100%;
+    /* margin-top: 100px; */
+    position: absolute;
+    left: 0px;
+    top: 2450px;
+    margin-bottom: 100px;
+}
+
+.about .content {
+    width: 1280px;
+}
+
+.about .content .about-box .about-top {
+    margin: 0 auto;
+    width: 300px;
+    height: 80px;
+    line-height: 80px;
+    border-bottom: 2px solid red;
+    text-align: center;
+}
+
+.about .content .about-box .about-top a {
+    color: #595757;
+    font-size: 24px;
+}
+
+.about .content .about-box .about-top a:hover {
+    color: #000000;
+}
+
+.about .content .about-box .about-text {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.about .content .pic {
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.about .content .about2 .pic2 {
+    float: right;
+    width: 536px;
+    height: 300px;
+    text-align: right;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+
+.about .content .about2 .pic2 img {
+    width: 536px;
+    height: 300px;
+}
+
+.about .content .about2 .title {
+    color: #e6002e;
+    font-weight: bold;
+    font-size: 16px;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+.about .content .about2 .cons {
+    line-height: 30px;
+    color: #666666;
+    font-size: 14px;
+}
+
+/* 合作伙伴样式 */
+.partner {
+    width: 100%;
+    /* margin-top: 100px; */
+    position: absolute;
+    left: 0px;
+    top: 3550px;
+    margin-bottom: 100px;
+}
+
+.partner .content {
+    width: 1280px;
+}
+
+.partner .content .partner-box .partner-top {
+    margin: 0 auto;
+    width: 300px;
+    height: 80px;
+    line-height: 80px;
+    border-bottom: 2px solid red;
+    text-align: center;
+}
+
+.partner .content .partner-box .partner-top a {
+    color: #595757;
+    font-size: 24px;
+}
+
+.partner .content .partner-box .partner-top a:hover {
+    color: #000000;
+}
+
+.partner .content .partner-box .partner-text {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.partner .content .partner-list li {
+    float: left;
+    margin-top: 5px;
+    margin-right: 3px;
+    padding: 2px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+}
+
+/* 页面底部样式 */
+.foot {
+    width: 100%;
+    /* margin-top: 100px; */
+    position: absolute;
+    left: 0px;
+    top: 3850px;
+    margin-bottom: 100px;
+    background-color: #eeeeee;
+}
+
+.foot .content {
+    width: 1280px;
+    height: 40px;
+}
+
+.foot .left {
+    float: left;
+}
+
+.foot .right {
+    float: right;
+}
+
+.foot .left li {
+    line-height: 40px;
+    font-size: 16px;
+}
+
+.foot .right li {
+    float: left;
+    line-height: 40px;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.foot .right li a {
+    color: #595757;
+}
+
+.foot .right li a:hover {
+    color: #000000;
+}
