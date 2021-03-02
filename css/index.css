@@ -538,8 +538,6 @@ a {
     position: fixed;
     width: 150px;
     height: 180px;
-    /* background-color: #bfa; */
-    /* border: 1px solid red; */
     bottom: 100px;
     right: 0;
 }
@@ -550,7 +548,6 @@ a {
 .sidebar .sideText {
     text-align: center;
     margin-top: -10px;
-    /* padding-left: 30px; */
     font-size: 14px;
     color: #595757;
 }
