@@ -533,3 +533,23 @@ a {
 .foot .right li a:hover {
     color: #000000;
 }
+
+.sidebar {
+    position: fixed;
+    width: 150px;
+    height: 180px;
+    /* background-color: #bfa; */
+    /* border: 1px solid red; */
+    bottom: 100px;
+    right: 0;
+}
+
+.sidebar .sideImg {
+    padding-left: 10px;
+}
+.sidebar .sideText {
+    text-align: center;
+    margin-top: -10px;
+    /* padding-left: 30px; */
+    font-size: 14px;
+}
