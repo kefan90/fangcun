@@ -498,7 +498,7 @@ a {
     left: 0px;
     top: 3850px;
     margin-bottom: 100px;
-    background-color: #eeeeee;
+    background-color: #999999;
 }
 
 .foot .content {
@@ -517,6 +517,7 @@ a {
 .foot .left li {
     line-height: 40px;
     font-size: 14px;
+    color:#FFF;
 }
 
 .foot .right li {
@@ -527,7 +528,7 @@ a {
 }
 
 .foot .right li a {
-    color: #595757;
+    color: #ffffff;
 }
 
 .foot .right li a:hover {
