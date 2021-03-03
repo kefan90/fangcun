@@ -516,7 +516,7 @@ a {
 
 .foot .left li {
     line-height: 40px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .foot .right li {
@@ -540,6 +540,7 @@ a {
     height: 180px;
     bottom: 25px;
     right: 0;
+    z-index: 999;
 }
 
 .sidebar .sideImg {
