@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/* 导航栏的样式 */
+.nav {
+    height: 100px;
+}
+
+.nav .content {
+    width: 1200px;
+    height: 100px;
+    margin: 0px auto;
+}
+
+.log {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+}
+
+.log img {
+    width: 100px;
+    height: 100px;
+}
+
+.nav .content ul {
+    float: left;
+    height: 30px;
+    margin: 35px auto 35px auto;
+}
+
+.nav li {
+    display: inline;
+    width: 90px;
+    height: 30px;
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.nav li a {
+    display: inline-block;
+    width: 90px;
+    height: 30px;
+    color: #595757;
+    line-height: 30px;
+}
+
+.nav li a:hover {
+    color: #ffffff;
+}
+
+.nav li:hover {
+    background-color: #595757;
+}
+
+.nav .tel {
+    float: right;
+    width: 190px;
+    height: 58px;
+    margin-top: 2%;
+}
+
+.nav .content .tel img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+}
+
+.tel .tel-1 a {
+    font-size: 18px;
+    color: #595757;
+}
+
+/* 主体样式 */
+.subject {
+    width: 100%;
+}
+.subject .content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.subject h2 {
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 1px solid #666;
+    line-height: 3;
+    margin-bottom: 30px;
+}
+
+.subject p {
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    color: #666;
+    font-family: 'Microsoft YaHei', arial;
+    font-size: 14px;
+    line-height: 30px;
+    white-space: nowrap;
+}
+
+.subject h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.subject img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.subject .nextpre {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/* 页面底部样式 */
+.foot {
+    width: 100%;
+    background-color: #999999;
+}
+
+.foot .content {
+    width: 1280px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.foot .left {
+    float: left;
+}
+
+.foot .right {
+    float: right;
+}
+
+.foot .left li {
+    line-height: 40px;
+    font-size: 14px;
+    color:#FFF;
+    padding-left: 30px;
+}
+
+.foot .right li {
+    float: left;
+    line-height: 40px;
+    font-size: 16px;
+    padding-right: 20px;
+}
+
+.foot .right li a {
+    color: #ffffff;
+}
+
+.foot .right li a:hover {
+    color: #000000;
+}
+
+.sidebar {
+    position: fixed;
+    width: 150px;
+    height: 180px;
+    bottom: 25px;
+    right: 0;
+    z-index: 999;
+}
+
+.sidebar .sideImg {
+    padding-left: 10px;
+}
+.sidebar .sideText {
+    text-align: center;
+    margin-top: -10px;
+    font-size: 14px;
+    color: #595757;
+}
