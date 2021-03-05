@@ -88,14 +88,106 @@ a {
 }
 
 /* 设置简介部分的样式 */
-.profile {
+.advantage {
     width: 100%;
-    background-color: #595757;
 }
 
-.profile .content {
+.advantage .content {
     width: 80%;
     margin: 0 auto;
+}
+
+.advantage .title1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    margin-top: 40px;
+    color: #333;
+}
+
+.advantage .title1 .s1 {
+    font-family: 宋体;
+    font-size: 42px;
+    color: #e6002e;
+    vertical-align: middle;
+    padding-left: 15px;
+}
+
+.advantage .box1 {
+    margin-bottom: 50px;
+}
+.advantage .box1 p {
+    font-family: 宋体;
+    line-height: 2.5;
+    font-size: 14px;
+}
+
+.advantage .content .sever-list {
+    width: 80%;
+    height: 140px;
+    text-align: center;
+    margin: 0 auto 50px;
+}
+
+.advantage .content .sever-list span {
+    font-size: 14px;
+}
+
+.advantage .content .sever-list li {
+    display: inline-block;
+    width: 105px;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.advantage .content .sever-list li div {
+    transition: all .2s;
+}
+
+.advantage .content .sever-list li div:hover {
+    transform: translateY(-15px);
+}
+
+.advantage .content .sever-list .img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #b01f24;
+    border-radius: 50%;
+}
+
+.advantage .content .sever-list .img img {
+    margin-top: 20px;
+}
+
+.advantage .title2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    color: #333;
+}
+
+.advantage .title2 span {
+    font-family: 宋体;
+    font-size: 42px;
+    color: #e6002e;
+    vertical-align: middle;
+    padding-left: 15px;
+}
+
+.advantage .box2 {
+    margin-bottom: 30px;
+}
+.advantage .box2 h2 {
+    font-size: 16px;
+    color: #b01f24;
+    font-weight: bold;
+    line-height: 2;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.advantage .box2 p {
+    font-family: 'Microsoft YaHei',arial;
+    font-size: 14px;
 }
 
 /* 设置页面底部样式 */
