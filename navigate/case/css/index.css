@@ -88,14 +88,10 @@ a {
 }
 
 /* 设置页面底部样式 */
+/* 页面底部样式 */
 .foot {
     width: 100%;
-    /* margin-top: 100px; */
-    /* position: absolute;
-    left: 0px;
-    top: 3850px; */
-    /* margin-bottom: 100px; */
-    background-color: #eeeeee;
+    background-color: #999999;
 }
 
 .foot .content {
@@ -113,7 +109,8 @@ a {
 
 .foot .left li {
     line-height: 40px;
-    font-size: 16px;
+    font-size: 14px;
+    color:#FFF;
 }
 
 .foot .right li {
@@ -124,9 +121,28 @@ a {
 }
 
 .foot .right li a {
-    color: #595757;
+    color: #ffffff;
 }
 
 .foot .right li a:hover {
     color: #000000;
+}
+
+.sidebar {
+    position: fixed;
+    width: 150px;
+    height: 180px;
+    bottom: 25px;
+    right: 0;
+    z-index: 999;
+}
+
+.sidebar .sideImg {
+    padding-left: 10px;
+}
+.sidebar .sideText {
+    text-align: center;
+    margin-top: -10px;
+    font-size: 14px;
+    color: #595757;
 }
