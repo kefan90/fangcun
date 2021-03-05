@@ -18,7 +18,7 @@ a {
     height: 100px;
 }
 
-.content {
+.nav .content {
     width: 1200px;
     height: 100px;
     margin: 0px auto;
@@ -87,16 +87,27 @@ a {
     color: #595757;
 }
 
+/* 设置简介部分的样式 */
+.profile {
+    width: 100%;
+    background-color: #595757;
+}
+
+.profile .content {
+    width: 80%;
+    margin: 0 auto;
+}
+
 /* 设置页面底部样式 */
-/* 页面底部样式 */
 .foot {
     width: 100%;
     background-color: #999999;
 }
 
 .foot .content {
-    width: 1280px;
+    width: 80%;
     height: 40px;
+    margin: 0 auto;
 }
 
 .foot .left {

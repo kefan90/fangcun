@@ -13,12 +13,15 @@ a {
     text-decoration: none;
 }
 
+.content {
+    margin: 0 auto;
+}
 /* 导航栏的样式 */
 .nav {
     height: 100px;
 }
 
-.content {
+.nav .content {
     width: 1200px;
     height: 100px;
     margin: 0px auto;
@@ -493,7 +496,6 @@ a {
 /* 页面底部样式 */
 .foot {
     width: 100%;
-    /* margin-top: 100px; */
     position: absolute;
     left: 0px;
     top: 3850px;
