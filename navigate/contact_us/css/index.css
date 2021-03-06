@@ -87,15 +87,63 @@ a {
     color: #595757;
 }
 
-/* 设置简介部分的样式 */
-.profile {
+/* 设置大图部分 */
+.picture {
     width: 100%;
-    background-color: #595757;
 }
 
-.profile .content {
+.picture img {
+    display: block;
+    margin: 0 auto 50px;
+}
+
+/* 设置联系电话部分的样式 */
+.contact {
+    width: 100%;
+}
+
+.contact .content {
     width: 80%;
     margin: 0 auto;
+}
+
+.contact .left {
+    display: inline-block;
+    width: 40%;
+    margin-bottom: 50px;
+}
+
+.contact .left h1 {
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.contact .left h2 {
+    font-size: 20px;
+    color: #333;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+
+.contact .list {
+    margin-left: 90px;
+}
+
+.contact .list p {
+    font-size: 16px;
+    line-height: 2.5;
+}
+
+.contact .list p a {
+    color: #666;
+}
+
+.contact .right {
+    display: inline-block;
+    width: 40%;
+    margin-top: 20px;
 }
 
 /* 设置页面底部样式 */
@@ -121,7 +169,7 @@ a {
 .foot .left li {
     line-height: 40px;
     font-size: 14px;
-    color:#FFF;
+    color: #FFF;
 }
 
 .foot .right li {
@@ -151,6 +199,7 @@ a {
 .sidebar .sideImg {
     padding-left: 10px;
 }
+
 .sidebar .sideText {
     text-align: center;
     margin-top: -10px;
