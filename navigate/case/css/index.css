@@ -13,6 +13,9 @@ a {
     text-decoration: none;
 }
 
+span {
+    display: block;
+}
 /* 导航栏的样式 */
 .nav {
     height: 100px;
@@ -24,14 +27,14 @@ a {
     margin: 0px auto;
 }
 
-.log {
+.nav .log {
     float: left;
     width: 100px;
     height: 100px;
     margin-right: 15px;
 }
 
-.log img {
+.nav .log img {
     width: 100px;
     height: 100px;
 }
@@ -87,21 +90,75 @@ a {
     color: #595757;
 }
 
-/* 设置简介部分的样式 */
-.profile {
+/* 设置大图部分 */
+.picture {
     width: 100%;
-    background-color: #595757;
 }
 
-.profile .content {
+.picture img {
+    display: block;
+    margin: 0 auto 50px;
+}
+
+/* 设置案例部分的样式 */
+.case {
+    width: 100%;
+}
+
+.case .case-list {
     width: 80%;
-    margin: 0 auto;
+    margin: 0 0 0 280px;
+}
+
+.case .case-list li {
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    transition: all .3s;
+}
+
+.case .case-list li:hover {
+    transform: translateY(-10px);
+}
+
+.case .case-list li .pic .link img {
+    height: 181px;
+    width: 307px;
+}
+
+.case .case-list li .caset1 {
+    text-align: center;
+    line-height: 24px;
+    font-size: 16px;
+    padding-top: 15px;
+}
+
+.case .case-list li .caset1 a {
+    color: #666666;
+}
+
+.case .case-list li .caset1 a:hover {
+    color: #000000;
+}
+
+.case .case-list li .caset2 {
+    text-align: center;
+    line-height: 24px;
+    height: 40px;
+}
+
+.case .case-list li .caset2 a {
+    color: #666666;
+}
+
+.case .case-list li .caset2 a:hover {
+    color: #000000;
 }
 
 /* 设置页面底部样式 */
 .foot {
     width: 100%;
-    background-color: #999999;
+    background-color: #999;
 }
 
 .foot .content {
@@ -110,35 +167,36 @@ a {
     margin: 0 auto;
 }
 
-.foot .left {
+.foot .content .left {
     float: left;
 }
 
-.foot .right {
+.foot .content .right {
     float: right;
 }
 
-.foot .left li {
+.foot .content .left li {
     line-height: 40px;
     font-size: 14px;
-    color:#FFF;
+    color: #FFF;
 }
 
-.foot .right li {
+.foot .content .right li {
     float: left;
     line-height: 40px;
     font-size: 16px;
     margin-right: 20px;
 }
 
-.foot .right li a {
+.foot .content .right li a {
     color: #ffffff;
 }
 
-.foot .right li a:hover {
+.foot .content .right li a:hover {
     color: #000000;
 }
 
+/* 侧边栏的样式 */
 .sidebar {
     position: fixed;
     width: 150px;
@@ -151,6 +209,7 @@ a {
 .sidebar .sideImg {
     padding-left: 10px;
 }
+
 .sidebar .sideText {
     text-align: center;
     margin-top: -10px;
