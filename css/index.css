@@ -18,6 +18,7 @@ a {
 }
 /* 导航栏的样式 */
 .nav {
+    width: 100%;
     height: 100px;
 }
 
@@ -140,7 +141,7 @@ a {
 }
 
 .case .content .case-list {
-    float: left;
+    display: inline-block;
     margin-top: 35px;
 }
 
@@ -212,11 +213,7 @@ a {
 /* 服务范围的样式 */
 .sever {
     width: 100%;
-    /* margin-top: 100px; */
-    position: absolute;
-    left: 0px;
-    top: 1650px;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 
 .sever .content {
@@ -224,7 +221,7 @@ a {
 }
 
 .sever .content .sever-box {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .sever .content .sever-box .sever-top {
@@ -291,11 +288,6 @@ a {
 /* 服务流程的样式 */
 .flow {
     width: 100%;
-    /* margin-top: 100px; */
-    position: absolute;
-    left: 0px;
-    top: 2050px;
-    margin-bottom: 100px;
 }
 
 .flow .content {
@@ -380,11 +372,7 @@ a {
 /* 关于页面样式 */
 .about {
     width: 100%;
-    /* margin-top: 100px; */
-    position: absolute;
-    left: 0px;
-    top: 2450px;
-    margin-bottom: 100px;
+    margin-top: 200px;
 }
 
 .about .content {
@@ -394,7 +382,6 @@ a {
 .about .content .about-box .about-top {
     margin: 0 auto;
     width: 300px;
-    height: 80px;
     line-height: 80px;
     border-bottom: 2px solid red;
     text-align: center;
@@ -450,11 +437,7 @@ a {
 /* 合作伙伴样式 */
 .partner {
     width: 100%;
-    /* margin-top: 100px; */
-    position: absolute;
-    left: 0px;
-    top: 3550px;
-    margin-bottom: 100px;
+    margin-top: 70px;
 }
 
 .partner .content {
@@ -482,13 +465,13 @@ a {
 .partner .content .partner-box .partner-text {
     margin-top: 10px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .partner .content .partner-list li {
-    float: left;
+    display: inline-block;
     margin-top: 5px;
-    margin-right: 3px;
-    padding: 2px;
+    margin-right: 2px;
     border: 1px solid #cccccc;
     border-radius: 8px;
 }
@@ -496,10 +479,7 @@ a {
 /* 页面底部样式 */
 .foot {
     width: 100%;
-    position: absolute;
-    left: 0px;
-    top: 3850px;
-    margin-bottom: 100px;
+    margin-top: 40px;
     background-color: #999999;
 }
 
