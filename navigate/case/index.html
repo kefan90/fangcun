@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 
-<body id="go_top">
+<body>
     <!-- 设置页面导航 -->
     <div class="nav">
         <div class="content">
@@ -163,7 +163,7 @@
                 <li><a href="../adv/index.html">服务优势</a></li>
                 <li><a href="../contact_us/index.html">联系我们</a></li>
                 <li><a href="https://fangcunad.taobao.com/" target="_blank">淘宝店铺</a></li>
-                <li><a href="#go_top">返回顶部</a></li>
+                <li><a id="goTop">返回顶部</a></li>
             </ul>
         </div>
     </div>
@@ -171,6 +171,20 @@
         <div class="sideImg"><img src="./img/QR code.bmp" alt=""></div>
         <div class="sideText">微信扫一扫 <br>关注方寸广告</div>
     </div>
+    <script>
+		var goTop = document.getElementById('goTop')
+		goTop.onclick = function () {
+			pageScroll()
+		}
+
+		function pageScroll() {
+			window.scrollBy(0, -10)
+			var scrollDelay = setTimeout('pageScroll()', 1)
+			if (document.documentElement.scrollTop === 0) {
+				clearTimeout(scrollDelay)
+			}
+		}
+	</script>
 </body>
 
 </html>
