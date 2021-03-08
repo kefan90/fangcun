@@ -87,17 +87,79 @@ a {
     color: #595757;
 }
 
-/* 设置简介部分的样式 */
-.profile {
-    width: 100%;
-    background-color: #595757;
+/* 设置大图部分 */
+.picture {
+    width: 90%;
+    margin: 0 auto;
 }
 
-.profile .content {
+.picture img {
+    display: block;
+    width: 90%;
+    margin: 0 auto 50px;
+}
+
+/* 设置合作伙伴的样式 */
+.partner {
+    width: 100%;
+}
+
+.partner .content {
     width: 80%;
     margin: 0 auto;
 }
 
+.partner .title1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    margin-top: 40px;
+    color: #333;
+}
+
+.partner .title1 .s1 {
+    font-family: 宋体;
+    font-size: 42px;
+    color: #e6002e;
+    vertical-align: middle;
+    padding-left: 15px;
+}
+
+.partner .box1 {
+    margin-bottom: 50px;
+}
+
+.partner .box1 p {
+    font-family: 宋体;
+    line-height: 2.5;
+    font-size: 14px;
+}
+
+.partner .content .partner-list {
+    text-align: center;
+    margin-bottom: 80px;
+}
+.partner .content .partner-list li {
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 2px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+}
+
+/* 设置简介部分的样式 */
+.partner {
+    width: 100%;
+}
+
+.partner .content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.partner h2 {
+    font-size: 28px;
+    font-weight: normal;
+}
 /* 设置页面底部样式 */
 .foot {
     width: 100%;

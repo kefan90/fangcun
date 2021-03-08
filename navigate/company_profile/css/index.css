@@ -89,11 +89,13 @@ a {
 
 /* 设置大图部分 */
 .picture {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .picture img {
     display: block;
+    width: 90%;
     margin: 0 auto 50px;
 }
 

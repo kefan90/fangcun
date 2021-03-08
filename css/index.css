@@ -93,19 +93,15 @@ a {
 
 /* 轮播图的样式 */
 .banner {
-    position: relative;
-    height: 100%;
+    width: 90%;
+    margin: 50px auto 20px;
 }
 
-/* .banner {
-    width: 100%;
-    background: #eee;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    color: #000;
-    margin-top: 7px;
-    padding: 0;
-} */
+.banner .swiper-slide img {
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+}
 
 /* 案例的样式 */
 .case {
