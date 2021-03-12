@@ -135,6 +135,7 @@ a {
 .foot {
     width: 100%;
     background-color: #999999;
+    margin-top: 50px;
 }
 
 .foot .content {

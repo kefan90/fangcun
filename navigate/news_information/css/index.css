@@ -87,20 +87,47 @@ a {
     color: #595757;
 }
 
-/* 设置简介部分的样式 */
-.profile {
-    width: 100%;
-    background-color: #595757;
+/* 设置大图部分 */
+.picture {
+    width: 90%;
+    margin: 40px auto 0;
 }
 
-.profile .content {
-    width: 80%;
+.picture img {
+    display: block;
+    width: 90%;
+    margin: 0 auto 50px;
+}
+
+/* 设置简介部分的样式 */
+.news {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.news .content {
+    width: 70%;
     margin: 0 auto;
+}
+
+.news ul {
+    margin: 0 auto;
+}
+
+.news ul li {
+    display: inline-block;
+    width: 250px;
+    height: 150px;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+    background-color: red;
 }
 
 /* 设置页面底部样式 */
 .foot {
     width: 100%;
+    margin-top: 50px;
     background-color: #999999;
 }
 

@@ -94,7 +94,7 @@ span {
 /* 设置大图部分 */
 .picture {
     width: 90%;
-    margin: 0 auto;
+    margin: 40px auto 0;
 }
 
 .picture img {
@@ -106,6 +106,33 @@ span {
 /* 设置案例部分的样式 */
 .case {
     width: 100%;
+}
+
+.case .case-box {
+    margin-bottom: 50px;
+}
+
+.case .case-box .case-top {
+    margin: 0 auto;
+    width: 300px;
+    height: 80px;
+    line-height: 80px;
+    border-bottom: 2px solid red;
+    text-align: center;
+}
+
+.case .case-box .case-top a {
+    color: #595757;
+    font-size: 24px;
+}
+
+.case .case-box .case-top a:hover {
+    color: #000000;
+}
+
+.case .case-box .case-text {
+    margin-top: 10px;
+    text-align: center;
 }
 
 .case .case-list {
